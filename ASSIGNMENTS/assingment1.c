@@ -46,3 +46,16 @@ int main() {
 
     return 0;
 }
+/*
+SAMPLE OUTPUT:
+Enter number of employee IDs: 5
+Enter 5 employee IDs in ascending order:
+101
+102                                                                                                     
+103                                                                                                     
+104                                                                                                     
+105                                                                                                     
+Enter employee ID to search: 104                                                                        
+                                                                                                        
+Employee ID 104 found at position 4.                                                                    
+Number of comparisons: 2     */
