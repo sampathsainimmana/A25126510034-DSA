@@ -5,18 +5,13 @@
 int queue[SIZE];
 int front = -1;
 int rear = -1;
-
-// Insert an element
 void insert(int value)
 {
-    // Queue is full
     if ((rear + 1) % SIZE == front)
     {
         printf("Queue Overflow!\n");
         return;
     }
-
-    // First element
     if (front == -1)
     {
         front = 0;
@@ -30,13 +25,9 @@ void insert(int value)
     queue[rear] = value;
     printf("%d inserted into queue.\n", value);
 }
-
-// Delete an element
 void delete()
 {
     int value;
-
-    // Queue is empty
     if (front == -1)
     {
         printf("Queue Underflow!\n");
@@ -45,8 +36,6 @@ void delete()
 
     value = queue[front];
     printf("%d deleted from queue.\n", value);
-
-    // If only one element was present
     if (front == rear)
     {
         front = -1;
@@ -57,8 +46,6 @@ void delete()
         front = (front + 1) % SIZE;
     }
 }
-
-// Display queue
 void display()
 {
     int i;
@@ -88,7 +75,6 @@ void display()
 
 int main()
 {
-    // Insert elements into the queue
     insert(10);
     insert(20);
     insert(30);
@@ -106,11 +92,7 @@ int main()
     insert(70);
 
     display();
-
-    // Demonstrate overflow
     insert(80);
-
-    // Delete all elements
     delete();
     delete();
     delete();
