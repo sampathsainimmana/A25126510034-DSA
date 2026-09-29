@@ -6,20 +6,14 @@
 
 char stack[MAX];
 int top = -1;
-
-// Push an element into stack
 void push(char ch)
 {
     stack[++top] = ch;
 }
-
-// Pop an element from stack
 char pop()
 {
     return stack[top--];
 }
-
-// Return precedence of operator
 int precedence(char ch)
 {
     if (ch == '^')
@@ -44,20 +38,14 @@ int main()
     for (i = 0; infix[i] != '\0'; i++)
     {
         ch = infix[i];
-
-        // If operand, add directly to postfix
         if (isalnum(ch))
         {
             postfix[j++] = ch;
         }
-
-        // If opening parenthesis, push into stack
         else if (ch == '(')
         {
             push(ch);
         }
-
-        // If closing parenthesis
         else if (ch == ')')
         {
             while (top != -1 && stack[top] != '(')
@@ -66,10 +54,8 @@ int main()
             }
 
             if (top != -1)
-                pop();   // Remove '('
+                pop();  
         }
-
-        // If operator
         else
         {
             while (top != -1 &&
@@ -82,8 +68,6 @@ int main()
             push(ch);
         }
     }
-
-    // Pop remaining operators
     while (top != -1)
     {
         postfix[j++] = pop();
