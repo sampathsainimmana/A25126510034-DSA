@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430">
+<rect width="1100" height="430" fill="#111827" rx="10"/>
+<circle cx="28" cy="24" r="7" fill="#ff5f56"/><circle cx="50" cy="24" r="7" fill="#ffbd2e"/><circle cx="72" cy="24" r="7" fill="#27c93f"/>
+<text x="28" y="58" fill="#9ca3af" font-family="monospace" font-size="14">C Program Output</text>
+<text x="28" y="88" fill="#f3f4f6" font-family="monospace" font-size="16">Enter number of vertices: 5</text>
+<text x="28" y="112" fill="#f3f4f6" font-family="monospace" font-size="16">Enter weighted adjacency matrix:</text>
+<text x="28" y="136" fill="#f3f4f6" font-family="monospace" font-size="16">0 10 9999 30 100</text>
+<text x="28" y="160" fill="#f3f4f6" font-family="monospace" font-size="16">10 0 50 9999 9999</text>
+<text x="28" y="184" fill="#f3f4f6" font-family="monospace" font-size="16">9999 50 0 20 10</text>
+<text x="28" y="208" fill="#f3f4f6" font-family="monospace" font-size="16">30 9999 20 0 60</text>
+<text x="28" y="232" fill="#f3f4f6" font-family="monospace" font-size="16">100 9999 10 60 0</text>
+<text x="28" y="256" fill="#f3f4f6" font-family="monospace" font-size="16">Enter source vertex: 0</text>
+<text x="28" y="280" fill="#f3f4f6" font-family="monospace" font-size="16"> </text>
+<text x="28" y="304" fill="#f3f4f6" font-family="monospace" font-size="16">Shortest distances from vertex 0:</text>
+<text x="28" y="328" fill="#f3f4f6" font-family="monospace" font-size="16">Vertex 0 -&gt; 0</text>
+<text x="28" y="352" fill="#f3f4f6" font-family="monospace" font-size="16">Vertex 1 -&gt; 10</text>
+<text x="28" y="376" fill="#f3f4f6" font-family="monospace" font-size="16">Vertex 2 -&gt; 50</text>
+<text x="28" y="400" fill="#f3f4f6" font-family="monospace" font-size="16">Vertex 3 -&gt; 30</text>
+<text x="28" y="424" fill="#f3f4f6" font-family="monospace" font-size="16">Vertex 4 -&gt; 60</text>
+</svg>
