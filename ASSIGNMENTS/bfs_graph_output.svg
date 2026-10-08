@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310">
+<rect width="1100" height="310" fill="#111827" rx="10"/>
+<circle cx="28" cy="24" r="7" fill="#ff5f56"/><circle cx="50" cy="24" r="7" fill="#ffbd2e"/><circle cx="72" cy="24" r="7" fill="#27c93f"/>
+<text x="28" y="58" fill="#9ca3af" font-family="monospace" font-size="14">C Program Output</text>
+<text x="28" y="88" fill="#f3f4f6" font-family="monospace" font-size="16">Enter number of vertices: 5</text>
+<text x="28" y="112" fill="#f3f4f6" font-family="monospace" font-size="16">Enter adjacency matrix:</text>
+<text x="28" y="136" fill="#f3f4f6" font-family="monospace" font-size="16">0 1 1 0 0</text>
+<text x="28" y="160" fill="#f3f4f6" font-family="monospace" font-size="16">1 0 1 1 0</text>
+<text x="28" y="184" fill="#f3f4f6" font-family="monospace" font-size="16">1 1 0 0 1</text>
+<text x="28" y="208" fill="#f3f4f6" font-family="monospace" font-size="16">0 1 0 0 1</text>
+<text x="28" y="232" fill="#f3f4f6" font-family="monospace" font-size="16">0 0 1 1 0</text>
+<text x="28" y="256" fill="#f3f4f6" font-family="monospace" font-size="16">Enter starting vertex: 0</text>
+<text x="28" y="280" fill="#f3f4f6" font-family="monospace" font-size="16"> </text>
+<text x="28" y="304" fill="#f3f4f6" font-family="monospace" font-size="16">BFS Traversal: 0 1 2 3 4</text>
+</svg>
